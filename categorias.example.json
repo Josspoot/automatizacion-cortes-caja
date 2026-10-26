@@ -1,0 +1,27 @@
+{
+  "Ventas": {
+    "Venta de Producto": [],
+    "Servicios": []
+  },
+  "Costo de Ventas": {
+    "Costo de lo Vendido": []
+  },
+  "Gastos Fijos-Instalaciones": {
+    "Renta": [],
+    "Internet": [],
+    "Telefonos y Celulares": []
+  },
+  "Gastos Financieros": {
+    "Comisiones Bancarias": []
+  },
+  "Gastos Fijos de Operacion - Personal": {
+    "Nominas- Sueldos y salarios": []
+  },
+  "Gastos Variables de Operacion": {
+    "Papeleria": [],
+    "Otros Trabajos": []
+  },
+  "Provisiones y Reservas(Ahorro/Emergencia)": {
+    "Aguinaldos": []
+  }
+}

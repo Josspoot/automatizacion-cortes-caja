@@ -1,0 +1,30 @@
+# entorno / cache
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# secretos y sesion
+.env
+.perfil_navegador/
+
+# datos reales del negocio (usa los .example.json como plantilla)
+conocimiento.json
+conocimiento_excel.json
+categorias.json
+registro.json
+registro_reporte.json
+ejemplos.json
+historico.txt
+PENDIENTES.txt
+
+# insumos y salidas con datos reales, no van al repo
+cortes_pdf/*
+!cortes_pdf/.gitkeep
+capturas/
+*.png
+*.html
+reportes.txt
+campos.txt
+gasto.txt
+combo2.txt

@@ -1,0 +1,18 @@
+{
+  "_nota": "Cerebro para el EXCEL con macros. Clave = 1er segmento del concepto del PDF. Ingresos: cliente (hoja CLIENTES) + tipo (lista de formas). Gastos: nc = NOMBRE COMERCIAL (hoja PROVEEDORES); razon social/subconcepto/tipo de gasto se leen de ahi, igual que tu formulario VBA. Copia este archivo a conocimiento_excel.json y ajusta a tu propio libro.",
+  "ingresos": {
+    "SERVICIO TALLER": {
+      "cliente": "Clientes Taller",
+      "tipo": "TALLER"
+    },
+    "PUBLICO GENERAL": {
+      "cliente": "Publico en General",
+      "tipo": "CORPORATIVO"
+    }
+  },
+  "gastos": {
+    "PROVEEDOR EJEMPLO": {
+      "nc": "PROVEEDOR EJEMPLO"
+    }
+  }
+}

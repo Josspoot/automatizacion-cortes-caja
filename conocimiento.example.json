@@ -1,0 +1,47 @@
+{
+  "_nota": "Cerebro para la plataforma WEB. Cada entrada de 'gastos'/'ingresos' define el proveedor/cliente y hasta 3 niveles de categoria tal cual aparecen en los combos del formulario. Copia este archivo a conocimiento.json y reemplaza los valores de ejemplo con tu propia taxonomia.",
+  "ingresos": {
+    "VENTA PRODUCTO": {
+      "cliente": "Publico en General",
+      "cat1": "Ventas",
+      "cat2": "Venta de Producto",
+      "cat3": null
+    },
+    "SERVICIO TALLER": {
+      "cliente": "Clientes Taller",
+      "cat1": "Ventas",
+      "cat2": "Servicios",
+      "cat3": null
+    }
+  },
+  "gastos": {
+    "PROVEEDOR EJEMPLO": {
+      "proveedor": "Proveedor Ejemplo SA",
+      "cat1": "Costo de Ventas",
+      "cat2": "Costo de lo Vendido",
+      "cat3": null
+    },
+    "RENTA LOCAL": {
+      "proveedor": "Arrendador Ejemplo",
+      "cat1": "Gastos Fijos-Instalaciones",
+      "cat2": "Renta",
+      "cat3": null
+    },
+    "COMISIONES BANCARIAS": {
+      "proveedor": "Banco Ejemplo",
+      "cat1": "Gastos Financieros",
+      "cat2": "Comisiones Bancarias",
+      "cat3": null
+    }
+  },
+  "depositos": {
+    "REEMBOLSO": {
+      "tipo": "DEPOSITO EN EFECTIVO"
+    }
+  },
+  "variables": {
+    "_nota": "Conceptos cuyo destino DEPENDE del contenido: NUNCA se aprenden como mapeo fijo, siempre quedan PENDIENTES para revisarlos a mano.",
+    "EJEMPLO VARIABLE": "segun lo comprado (explica aqui la regla de decision)"
+  },
+  "pendientes_por_aprender": []
+}
